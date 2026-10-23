@@ -1,0 +1,1 @@
+uv run hello 명령으로 Hello, uv!를 출력하는 프로젝트입니다.
