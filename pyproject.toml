@@ -1,0 +1,18 @@
+[project]
+name = "week8-hello"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "오은종", email = "lgdmango7305@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+week8-hello = "week8_hello:main"
+hello = "week8_hello:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
